@@ -1,6 +1,7 @@
+@charset "UTF-8";
+
 @import url(https://fonts.googleapis.com/css?family=Montserrat:regular,500&display=swap);
 
-@charset "UTF-8";
 
 @font-face {
   font-family: "iconfont";
@@ -145,12 +146,7 @@ h6 {
   min-width: 0;
 }
 
-/*
-(i) Стили будут применяться ко 
-всем классам содержащим *__container
-Например header__container, main__container и т.д.
-Снипет (HTML): cnt
-*/
+
 
 [class*=__container] {
   max-width: 118.75rem;
@@ -211,48 +207,6 @@ textarea.input {
 [class*=-ibg_contain] img {
   -o-object-fit: contain;
      object-fit: contain;
-}
-
-.material-icons {
-  font-family: "Material Icons";
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;
-  /* Preferred icon size */
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-  /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
-  /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale;
-  /* Support for IE. */
-  -webkit-font-feature-settings: "liga";
-          font-feature-settings: "liga";
-}
-
-.material-icons.md-dark {
-  color: rgba(0, 0, 0, 0.54);
-}
-
-.material-icons.md-dark.md-inactive {
-  color: rgba(0, 0, 0, 0.26);
-}
-
-/* Rules for using icons as white on a dark background. */
-
-.material-icons.md-light {
-  color: rgb(255, 255, 255);
-}
-
-.material-icons.md-light.md-inactive {
-  color: rgba(255, 255, 255, 0.3);
 }
 
 .header__container {
